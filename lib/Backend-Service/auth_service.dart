@@ -9,8 +9,7 @@ import '../Questionaire/answer_model.dart';
 
 class AuthService {
   final _storage = const FlutterSecureStorage();
-  final String baseUrl =
-      kIsWeb ? 'http://localhost:3000/api' : 'http://10.0.2.2:3000/api';
+  final String baseUrl =  "https://backend-coinwa.onrender.com/api";
 
 
   Future<bool> isTokenValid() async {
