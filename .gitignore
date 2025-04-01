@@ -4,6 +4,7 @@
 .pub-cache/
 .pub/
 build/
+!build/web
 android/.gradle/
 android/app/build/
 android/.idea/
