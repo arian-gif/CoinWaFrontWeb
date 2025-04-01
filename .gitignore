@@ -1,0 +1,36 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+android/.gradle/
+android/app/build/
+android/.idea/
+
+# iOS/macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+macos/Flutter/Flutter.framework/
+macos/Flutter/ephemeral/
+macos/.symlinks/
+
+# Web
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+web/.flutter-versions
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Others
+*.log
+*.lock
+*.DS_Store
